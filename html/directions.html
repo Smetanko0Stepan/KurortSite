@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Відпочинок на курортах All inclusive преміум класу</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="pad_center">
+                <input type="checkbox" id="dws-menu">
+                <div class="leb-menu">
+                   <label for="dws-menu"><img src="../img/icons8-меню-25.png" alt="меню"></label>
+                </div>
+                <div>
+                    <a class="logo_link" href="#"><img src="../img/icons8-пляж-25.png" alt="пальма"> KURORT CLUB</a>
+                </div>
+                <div id="navigation">
+                    <nav class="nav">
+                        <a class="nav_link" href="information.html"> ІНФОРМАЦІЯ ПРО KURORT CLUB</a>
+                        <a class="nav_link" href="directions.html"> НАПРЯМКИ</a>
+                        <a class="nav_link" href="index.html"> ВІДПОЧИНОК НА МОРІ</a>
+                        <a class="nav_link" href="special_offer.html"> СПЕЦПРОПОЗИЦІЯ</a>
+                    </nav>
+                </div>
+                <div class="log_in">
+                    <button class="button" onclick="Login()">
+                        ВХІД
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="id01" class="modal">
+            <form class="modal-content">
+              <div class="containr">
+                <h1 class="txt-center-color">Вхід</h1>
+                <input id = "input1" type="text" placeholder=" Введіть Email" name="email" required>
+                <input id = "input2" type="password" placeholder=" Введіть пароль" name="psw" required>
+                
+                <label>
+                  <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Запам'ятати мене
+                </label>
+          
+                <p>Створюючи обліковий запис, ви погоджуєтесь з нашими <a href="#" style="color:dodgerblue">умовами конфіденційності</a>.</p>
+          
+                <div class="clearfix" style="display: flex;">
+                  <button type="button" onclick="Close()" class="cancelbtn buttons buttons-mr">Вихід</button>
+                  <button type="button" onclick="Check()" class="signupbtn buttons">Вхід</button>
+                </div>
+              </div>
+            </form>
+        </div>
+        <div class="head-img-direct">
+            <span>Наші напрямки</span>
+        </div>
+        <div class="img1">
+            <img src="../img/imgonline-com-ua-Resize-alWu5r1vGM3y9Pvu.jpg" alt="Заставка" class="img1-style-100-500">
+        </div>
+
+        <!-- Європа -->
+        <div class="sec1">
+            <p class="p-font">
+                Європа - це сучасний континент з багатою історією. Середньовічні замки - мовчазні свідки вікового 
+                протистояння прогресу і традицій. Потопаючі в зелені села змінюють переконливі гірські ланцюги та 
+                безтурботні пляжі, а багата європейська спадщина чекає своїх поціновувачів в музеях і галереях.
+            </p>
+        </div>
+        <div class="sec1">
+            <div class="section-id2">
+                <img src="../img/https___ns.clubmed.com_nmea_2015_B2C_341_IMG_RWD_landingimmersive_europe.jpg" alt="Європа" class="wh-600-200">
+            </div>
+            <div class="sec1_pad">
+                <h2 class="h-bot">Відпочинок в Європі</h2>
+                <span style="font-size: 20px;"><a class="l color" href="#">ВІДКРИЙТЕ ДЛЯ СЕБЕ ВІДПОЧИНОК ALL - INCLUSIVE В ЄВРОПІ</a>  ></span>
+            </div>
+        </div>
+        <div style="margin-top: 2.5rem;">
+            <div class="curorts">
+                <div class="flex-wrap">
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont">
+                                    <img src="../img/Cefalu_Sicilia.jpg" alt="Целафу" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link"href="#" >Cefalu</a>
+                                    <span class="font-country">Італія</span> 
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">6.725</span><span class="sp3"> 5.716 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont"> 
+                                    <img src="../img/208660-55ry543h22-swhr.jpg" alt="Паьміє" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link" href="#">Palmiye</a>
+                                    <span class="font-country">Туреччина</span>
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">5.079</span><span class="sp3"> 4.317 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont">
+                                    <img src="../img/27670-rcvj4x8vgj-swhr.jpg" alt="Грегомілано" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link" href="#">Gregolimano</a>
+                                    <span class="font-country">Греція</span>
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">5.308</span><span class="sp3"> 4.512 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Індійський океан -->
+        <div class="sec1" style="margin-top: 12rem;">
+            <p class="p-font">
+                Індійський Океан заповнює собою величезний простір між Африкою і Австралією. Унікальний рельєф 
+                регіону та сприятливий клімат зробили його фаворитом для тих, хто прагне вирватися з повсякденного 
+                життя та поринути в красу природи і неспішний релакс.
+            </p>
+        </div>
+        <div class="sec1">
+            <div class="section-id2">
+                <img src="../img/https___ns.clubmed.com_nmea_2015_B2C_341_IMG_RWD_landingimmersive_indianocean.jpg" alt="Індійський океан" class="wh-600-200">
+            </div>
+            <div class="sec1_pad">
+                <h2 class="h-bot">Відпочинок на островах Індійського Океану</h2>
+                <span style="font-size: 20px;"><a class="l color" href="#">ВІДКРИЙТЕ ДЛЯ СЕБЕ ВІДПОЧИНОК ALL - INCLUSIVE НА ОСТРОВАХ ІНДІЙСЬКОГО ОКЕАНУ</a>  ></span>
+            </div>
+        </div>
+        <div style="margin-top: 2.5rem;">
+            <div class="curorts">
+                <div class="flex-wrap">
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont">
+                                    <img src="../img/club-med-seychelles-republic.jpg" alt="Сейшелл" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link"href="#" >Seychelles</a>
+                                    <span class="font-country">Сейшельські острови</span> 
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">11.296</span><span class="sp3"> 9.602 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont"> 
+                                    <img src="../img/251174-n0y318w2dy-swhr.jpg" alt="Кані" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link" href="#">Kani</a>
+                                    <span class="font-country">Мальдіви</span>
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">6.841</span><span class="sp3"> 5.844 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont">
+                                    <img src="../img/club-med-finolhu-villas.jpg" alt="Вілли Фінолу" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link" href="#">The Finolhu Villas</a>
+                                    <span class="font-country">Мальдіви</span>
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">13.546</span><span class="sp3"> 9.543 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Азія -->
+        <div class="sec1" style="margin-top: 12rem;">
+            <p class="p-font">
+                Азія - це найбільший континент. Наповнена мусонами Індія, засніжені Гімалаї, вологі джунглі В'єтнаму і 
+                Камбоджі. Азія - земля дивовижних пейзажів, які чергуються з храмами, що дбайливо зберігають свої 
+                традиції за увитими виноградником стінами.
+            </p>
+        </div>
+        <div class="sec1">
+            <div class="section-id2">
+                <img src="../img/https___ns.clubmed.com_nmea_2015_B2C_341_IMG_RWD_landingimmersive_asia.jpg" alt="Азія" class="wh-600-200">
+            </div>
+            <div class="sec1_pad">
+                <h2 class="h-bot">Відпочинок в Азії</h2>
+                <span style="font-size: 20px;"><a class="l color" href="#">ВІДКРИЙТЕ ДЛЯ СЕБЕ ВІДПОЧИНОК ALL - INCLUSIVE В АЗІЇ</a>  ></span>
+            </div>
+        </div>
+        <div style="margin-top: 2.5rem;">
+            <div class="curorts">
+                <div class="flex-wrap">
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont">
+                                    <img src="../img/unnamed.jpg" alt="Санья" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link"href="#" >Sanya</a>
+                                    <span class="font-country">Китай</span> 
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">4.736</span><span class="sp3"> 4.026 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont">
+                                    <img src="../img/630_360_1625143326-524.jpg" alt="Пхукет" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link" href="#">Phuket</a>
+                                    <span class="font-country">Таїланд</span>
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">4.896</span><span class="sp3"> 4.162 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont">
+                                    <img src="../img/bali-otel-na-poberezhye-1071x602.jpg" alt="Балі" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link" href="#">Bali</a>
+                                    <span class="font-country">Індонезія</span>
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">5.079</span><span class="sp3"> 4.317 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Кариби -->
+        <div class="sec1" style="margin-top: 12rem;">
+            <p class="p-font">
+                Для тих, хто закоханий в сонце, море, пісок і спорт, Кариби - справжній рай. Білі піщані пляжі, тепле 
+                бірюзове море та безліч розваг для гостей будь-якого віку зроблять відпочинок на Карибах ідеальним.
+            </p>
+        </div>
+        <div class="sec1">
+            <div class="section-id2">
+                <img src="../img/https___ns.clubmed.com_nmea_2015_B2C_341_IMG_RWD_landingimmersive_caribbean.jpg" alt="Карибські острови" class="wh-600-200">
+            </div>
+            <div class="sec1_pad">
+                <h2 class="h-bot">Відпочинок на Карибських островах</h2>
+                <span style="font-size: 20px;"><a class="l color" href="#">ВІДКРИЙТЕ ДЛЯ СЕБЕ ВІДПОЧИНОК ALL - INCLUSIVE НА КАРИБСЬКИХ ОСТРОВАХ</a>  ></span>
+            </div>
+        </div>
+        <div style="margin-top: 2.5rem;">
+            <div class="curorts">
+                <div class="flex-wrap">
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont">
+                                    <img src="../img/178900824.jpg" alt="Пунта-Кана" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link"href="#" >Punta Cana</a>
+                                    <span class="font-country">Домініканська республіка</span> 
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">4.302</span><span class="sp3"> 3.657 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont">
+                                    <img src="../img/11812-fkdehk6yyl-swhr.jpg" alt="Буканьє" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link" href="#">Les Boucaniers</a>
+                                    <span class="font-country">Мартініка</span>
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">4.714</span><span class="sp3"> 4.007 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont">
+                                    <img src="../img/club-med-la-caravelle.jpg" alt="Каравелла" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link" href="#">La Caravelle</a>
+                                    <span class="font-country">Гванделупа</span>
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">6.314</span><span class="sp3"> 5.367 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Африка -->
+        <div class="sec1" style="margin-top: 12rem;">
+            <p class="p-font">
+                Древні руїни, шумні столиці і національні заповідники... Африка - унікальна суміш традицій 
+                та сучасності. Посушливі пустелі змінюють родючі джунглі. Можливості для дослідження дикої 
+                природи безмежні, і кожен турист знайде щось цікаве для себе.
+            </p>
+        </div>
+        <div class="sec1">
+            <div class="section-id2">
+                <img src="../img/https___ns.clubmed.com_nmea_2015_B2C_341_IMG_RWD_landingimmersive_africa.jpg" alt="Африка" class="wh-600-200">
+            </div>
+            <div class="sec1_pad">
+                <h2 class="h-bot">Відпочинок в Африці</h2>
+                <span style="font-size: 20px;"><a class="l color" href="#">ВІДКРИЙТЕ ДЛЯ СЕБЕ ВІДПОЧИНОК ALL - INCLUSIVE В АФРИЦІ</a>  ></span>
+            </div>
+        </div>
+        <div style="margin-top: 2.5rem;">
+            <div class="curorts">
+                <div class="flex-wrap">
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont">
+                                    <img src="../img/club-med-marrakech-la.jpg" alt="Марракеш Ла-Пальмере" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link"href="#" >Marrakech La Palmeraie</a>
+                                    <span class="font-country">Марокко</span> 
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">5.125</span><span class="sp3"> 4.356 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont">
+                                    <img src="../img/62761-vbh3nwt5fh-swhr.jpg" alt="Ясміна" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link" href="#">Yasmina</a>
+                                    <span class="font-country">Марокко</span>
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">4.531</span><span class="sp3"> 3.851 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="pd">
+                        <article class="rel">
+                            <div class="rel">
+                                <div class="wh-380-250-cont">
+                                    <img src="../img/beach.jpg" alt="Кеп-Скіррінґ" class="wh-380-250">
+                                </div>
+                                <div class="text-content wh-380-250-sub-cont1">
+                                    <a class="a-link" href="#">Cap Skirring</a>
+                                    <span class="font-country">Сенегал</span>
+                                </div>
+                            </div>
+                            <div class="wh-380-250-sub-cont2">
+                                <a href="#" style="text-decoration: none;"><span class="sp1">від </span><span class="sp2">5.674</span><span class="sp3"> 4.823 UAN</span><span class="sp4">за одну людину на ніч</span></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footdiv" id="foot">
+            <div id="foot-under">
+                <span style="font-size: larger;">Kurort Club<br></span>
+                <span style="font-size: 0.938rem;">(044)200-03-03<br></span>
+                <span style="font-size: 0.938rem;">Дзвінки оплачуються за місцевими тарифами. ПН–ПТ: 9:30-18:30 СБ-НД: вихідний</span>
+            </div>
+            <div>
+                <div style="text-align:center;">Приєднуйтесь до нас</div>
+                <ul class="social-icons">
+                  <li><a class="social-icon-twitter" href="https://twitter.com/" title="Офіційна сторінка ІТ Шеф в Twitter" target="_blank" rel="noopener"></a></li>
+                  <li><a class="social-icon-fb" href="https://www.facebook.com/" title="Офіційна сторінка ІТ Шеф в Facebook" target="_blank" rel="noopener"></a></li>
+                  <li><a class="social-icon-vk" href="https://vk.com/" title="Офіційна сторінка ІТ Шеф в ВКонтакте" target="_blank" rel="noopener"></a></li>
+                  <li><a class="social-icon-telegram" href="https://t.me/" title="Офіційна сторінка ІТ Шеф в Telegram" target="_blank" rel="noopener"></a></li>
+                  <li><a class="social-icon-youtube" href="https://www.youtube.com/" title="Офіційний канал ІТ Шеф на Youtube" target="_blank" rel="noopener"></a></li>
+                </ul>
+              </div>
+        </div>
+        <div class="hr-style">
+            <hr id="hr-none">
+        </div>
+        <div class="footdiv" id="list-none">
+            <p class="textalign" style="margin-right: 2.8rem">
+                Відвідайте наш корпоративний сайт і дізнайтеся більше про компанію, форму власності 
+                та стратегію сталого розвитку.
+            </p>
+            <p class="textalign2" style="padding: 0 100px;">
+                <span style="font-size: small;">ВІДКРИВАЙТЕ СВІТ РАЗОМ З KURORT CLUB!</span><br><br>
+                Ми пропонуємо розкішний відпочинок, де все включено і ніяких прихованих витрат. 
+                Захоплюючий морський відпочинок, екзотичні далекі країни та приголомшливі
+                круїзи - це лише мала частина того, що вам запропонують в Kurort Club.
+            </p>
+            <div class = "blok">
+                <span class="txt-line" >СЕРВІСИ ТА ПРОГРАМИ</span>
+                <ul class="list">
+                    <li>Програма лояльності</li>
+                    <li>Програма Приведи друга в Kurort Club</li>
+                    <li>Сервіс Easy Arrival</li>
+                    <li>Особистий кабінет: питання і відповіді  </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>
